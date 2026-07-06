@@ -1,0 +1,28 @@
+.language-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px; /* In RTL this might be logical left, but we can stick to physical or logical. Let's use physical coordinates, but wait, usually we want it in a specific corner. */
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--text-primary);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.language-switcher:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+[dir="rtl"] .language-switcher {
+  right: auto;
+  left: 20px;
+}
