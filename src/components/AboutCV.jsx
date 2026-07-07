@@ -22,16 +22,27 @@ const AboutCV = () => {
           <div className="about-text">
             <h2><span className="text-gradient">{t('about.title1')}</span> {t('about.title2')}</h2>
             <p>{t('about.p1')}</p>
-            <p>{t('about.p2')}</p>
             
-            <div className="cv-actions">
-              <a href="/My_CV english.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
-                <ExternalLink size={18} className="mr-2" style={{marginRight: lang === 'ar' ? '0' : '8px', marginLeft: lang === 'ar' ? '8px' : '0'}} /> {t('about.viewCV')}
-              </a>
-              <a href="/My_CV english.pdf" download="My_CV english.pdf" className="btn btn-primary">
-                <Download size={18} className="mr-2" style={{marginRight: lang === 'ar' ? '0' : '8px', marginLeft: lang === 'ar' ? '8px' : '0'}} /> {t('about.downloadCV')}
-              </a>
-            </div>
+      <div className="cv-actions">
+  {/* زر عرض السيرة الذاتية */}
+  <a 
+    href={lang === 'ar' ? '/My_CV Arabic.pdf' : '/My_CV english.pdf'} 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="btn btn-outline"
+  >
+    <ExternalLink size={18} className="mr-2" style={{marginRight: lang === 'ar' ? '0' : '8px', marginLeft: lang === 'ar' ? '8px' : '0'}} /> {t('about.viewCV')}
+  </a>
+
+  {/* زر تحميل السيرة الذاتية */}
+  <a 
+    href={lang === 'ar' ? '/My_CV Arabic.pdf' : '/My_CV english.pdf'} 
+    download={lang === 'ar' ? 'My_CV Arabic.pdf' : 'My_CV english.pdf'} 
+    className="btn btn-primary"
+  >
+    <Download size={18} className="mr-2" style={{marginRight: lang === 'ar' ? '0' : '8px', marginLeft: lang === 'ar' ? '8px' : '0'}} /> {t('about.downloadCV')}
+  </a>
+</div>
           </div>
 
           {/* Right Side: Interactive Timeline */}
@@ -40,18 +51,16 @@ const AboutCV = () => {
             <div className="timeline-container">
               {timeline.map((item, index) => (
                 <motion.div 
-                  key={index} 
-                  className="timeline-item"
-                  initial={{ opacity: 0, x: lang === 'ar' ? -50 : 50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.2 }}
-                >
+  key={index} 
+  className="timeline-item"
+  initial={{ opacity: 0, x: lang === 'ar' ? -30 : 30 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  viewport={{ once: true, margin: "-60px" }}
+  transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: index * 0.15 }}
+>
                   <div className="timeline-dot"></div>
                   <div className="timeline-content">
-                    <span className="timeline-year">{item.year}</span>
                     <h4 className="timeline-role">{item.role}</h4>
-                    <span className="timeline-company">{item.company}</span>
                     <p className="timeline-desc">{item.description}</p>
                   </div>
                 </motion.div>

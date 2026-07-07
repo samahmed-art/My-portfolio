@@ -19,21 +19,25 @@ const ProjectsGallery = () => {
           transition={{ duration: 0.6 }}
           className="section-header"
         >
-          <h2>{t('projects.title1')} <span className="text-gradient">{t('projects.title2')}</span></h2>
+          <h2>{t('projects.title1')} </h2>
           <p>{t('projects.subtitle')}</p>
         </motion.div>
 
         <div className="projects-grid">
           {projects.map((project, index) => (
             <Link to={`/project/${project.id}`} key={project.id} className="project-card-link">
-              <motion.div
-                className="project-card"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                whileHover={{ scale: 1.02 }}
-              >
+            <motion.div
+         className="project-card"
+         initial={{ opacity: 0, y: 30 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         viewport={{ once: true, margin: "-100px" }}
+         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: index * 0.08 }}
+         whileHover={{ 
+           y: -8,
+           transition: { duration: 0.3, ease: "easeOut" }
+         }}
+         style={{ background: 'var(--bg-surface)', borderRadius: '12px', overflow: 'hidden' }}
+>
                 <div className="project-image-wrapper">
                   <img src={project.image} alt={project.title[lang]} className="project-image" />
                   <div className="project-overlay">

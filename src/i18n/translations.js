@@ -1,51 +1,48 @@
 export const translations = {
   ar: {
     hero: {
-      title1: "صناعة تجارب",
-      title2: "رقمية.",
-      subtitle: "أنا مصمم ويب ومطور واجهات أمامية مبدع، شغوف ببناء تطبيقات ويب حديثة وعالية الجودة ومخصصة بالكامل.",
+      tag : "مطورة واجهات خلفية",
+      title1:"مطور واجهات خلفية",
+      title2 : "& خريجة IT",
+      subtitle: "أنا مطورة مواقع ويب ومطورة واجهات خلفية مبدع، شغوف ببناء مشاريع  عالية الجودة ومخصصة بالكامل.",
       btn: "شاهد أعمالي"
     },
     about: {
       title1: "نبذة",
       title2: "عني",
-      p1: "أنا مطور ومصمم متعدد التخصصات بشغف لإنشاء تجارب رقمية ليست وظيفية فحسب، بل وجذابة بصرياً. أتخصص في سد الفجوة بين التصميم والهندسة.",
-      p2: "بفضل خلفية قوية في تقنيات الويب الحديثة، أقوم ببناء تطبيقات قابلة للتوسع، وسهلة الوصول، وذات أداء عالٍ تترك انطباعاً دائماً. عندما لا أكتب الأكواد، أستكشف عادةً اتجاهات التصميم الجديدة أو أساهم في المشاريع مفتوحة المصدر.",
+      p1: "خريجة تقنية معلومات مهتم بتطوير الـ Backend وتصميم الأنظمة. أستمتع بحل المشكلات وبناء تطبيقات عملية باستخدام لغات وأطر عمل حديثة. أعمل باستمرار على تطوير مهاراتي من خلال تنفيذ مشاريع حقيقية، وتعلم مفاهيم هندسة البرمجيات، وقواعد البيانات، وواجهات API، وأسعى للانضمام إلى فريق يمكنني من خلاله المساهمة والتطور كمطور برمجيات.",
       viewCV: "عرض السيرة الذاتية",
       downloadCV: "تحميل السيرة الذاتية",
-      experience: "الخبرات",
+      experience: "المهارات التقنية",
       timeline: [
         {
-          year: "2023 - الحاضر",
-          role: "مهندس واجهات أمامية أول",
-          company: "شركة TechNova",
-          description: "قيادة هندسة واجهة المستخدم لمنصة SaaS ذات حركة مرور عالية."
+          role: "لغات البرمجة",
+          description: "Python -SQL -JavaScript -C#"
         },
         {
-          year: "2020 - 2023",
-          role: "مصمم ومطور ويب",
-          company: "الوكالة الإبداعية X",
-          description: "تصميم وتطوير تجارب رقمية حائزة على جوائز لعملاء عالميين."
+          role: "تطوير الواجهات الخلفية",
+          description: "FastAPI"
         },
         {
-          year: "2018 - 2020",
-          role: "مطور مبتدئ",
-          company: "شركة ناشئة",
-          description: "بناء أدوات ولوحات تحكم داخلية قابلة للتوسع."
+          role: "قواعد البيانات ",
+          description: "Oracl - Supabase"
+        },
+        {
+          role: "الأدوات",
+          description: "Git - GitHub -VS Code"
         }
       ]
     },
     projects: {
       title1: "مشاريع",
-      title2: "مختارة",
-      subtitle: "إليك بعض من أعمالي الأخيرة."
+      subtitle: " بعض من أعمالي الأخيرة."
     },
     detail: {
       back: "العودة للمعرض",
       overview: "نظرة عامة",
       links: "الروابط",
       github: "عرض الكود على GitHub",
-      live: "زيارة الموقع الحي"
+      live: "زيارة الموقع "
     },
     contact: {
       title1: "لنتواصل",
@@ -53,57 +50,52 @@ export const translations = {
       name: "الاسم",
       email: "البريد الإلكتروني",
       message: "الرسالة",
-      send: "إرسال الرسالة",
-      copyright: "جميع الحقوق محفوظة."
+      send: "إرسال الرسالة"
     }
   },
   en: {
     hero: {
-      title1: "Crafting Digital",
-      title2: "Experiences.",
-      subtitle: "I'm a creative web designer and front-end developer passionate about building premium, highly customized, and modern web applications.",
+      tag : "Back-end Developer" ,
+      title1: "Junior backend Developer ",
+      title2 :"& IT Graduate",
+      subtitle: "I'm a creative web developer and back-end developer passionate about building premium , highly customized web applications.",
       btn: "View My Work"
     },
     about: {
       title1: "About",
       title2: "Me",
-      p1: "I am a multidisciplinary developer and designer with a passion for creating digital experiences that are not only functional but visually captivating. I specialize in bridging the gap between design and engineering.",
-      p2: "With a strong foundation in modern web technologies, I build scalable, accessible, and performant applications that leave a lasting impression. When I'm not coding, I'm usually exploring new design trends or contributing to open-source.",
-      viewCV: "View CV",
+      p1: "I'm an IT graduate with a strong passion for backend development and software engineering. I enjoy designing efficient systems, solving complex problems, and building web applications that are scalable  and maintainable  . I continuously improve my skills by developing real-world projects and learning modern technologies, software architecture, database design, and API development. My goal is to grow as a backend developer and contribute to building high-quality software that makes a real impact.",
       downloadCV: "Download CV",
-      experience: "Experience",
+      experience: "Technical Skills",
       timeline: [
         {
-          year: "2023 - Present",
-          role: "Senior Front-End Engineer",
-          company: "TechNova Inc.",
-          description: "Leading the UI architecture for a high-traffic SaaS platform."
+          role: "Programming Languages",
+          description: "Python -SQL -JavaScript -C#"
         },
         {
-          year: "2020 - 2023",
-          role: "Web Designer & Developer",
-          company: "Creative Agency X",
-          description: "Designed and developed award-winning digital experiences for global clients."
+          role: "Backend Development",
+          description: "FastAPI"
         },
         {
-          year: "2018 - 2020",
-          role: "Junior Developer",
-          company: "Startup Co.",
-          description: "Built scalable internal tools and dashboards."
+          role: "Databases",
+          description: "Oracl - Supabase"
+        },
+        {
+          role: "Tools",
+          description: "Git - GitHub -VS Code"
         }
       ]
     },
     projects: {
       title1: "Selected",
-      title2: "Projects",
-      subtitle: "Here are a few of my recent works."
+      subtitle: "Here are  my recent works."
     },
     detail: {
       back: "Back to Portfolio",
       overview: "Overview",
       links: "Links",
       github: "View Source on GitHub",
-      live: "Visit Live Site"
+      live: "Visit Site"
     },
     contact: {
       title1: "Let's Connect",
@@ -111,8 +103,7 @@ export const translations = {
       name: "Your Name",
       email: "Your Email",
       message: "Your Message",
-      send: "Send Message",
-      copyright: "All rights reserved."
+      send: "Send Message"
     }
   }
 };

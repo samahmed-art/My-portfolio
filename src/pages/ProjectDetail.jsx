@@ -7,15 +7,14 @@ import { useLanguage } from '../context/LanguageContext';
 import './ProjectDetail.css';
 
 const pageVariants = {
-  initial: { opacity: 0, scale: 0.98 },
-  in: { opacity: 1, scale: 1 },
-  out: { opacity: 0, scale: 1.02 }
+  initial: { opacity: 0, y: 15 },
+  in: { opacity: 1, y: 0 },
+  out: { opacity: 0, y: -15 }
 };
 
 const pageTransition = {
-  type: "tween",
-  ease: "anticipate",
-  duration: 0.6
+  ease: [0.16, 1, 0.3, 1], /* Cubic-bezier ممتاز ومريح للعين */
+  duration: 0.7
 };
 
 const ProjectDetail = () => {
