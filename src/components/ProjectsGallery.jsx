@@ -58,6 +58,7 @@ const ProjectsGallery = () => {
               </motion.div>
             </Link>
           ))}
+       
         </div>
       </div>
     </section>
