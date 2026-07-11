@@ -2,7 +2,7 @@ export const translations = {
   ar: {
     hero: {
       tag : "مطورة واجهات خلفية",
-      title1:"مطور واجهات خلفية",
+      title1:"مطورة واجهات خلفية",
       title2 : "& خريجة IT",
       subtitle: "أنا مطورة مواقع ويب ومطورة واجهات خلفية مبدع، شغوف ببناء مشاريع  عالية الجودة ومخصصة بالكامل.",
       btn: "شاهد أعمالي"
@@ -17,7 +17,7 @@ export const translations = {
       timeline: [
         {
           role: "لغات البرمجة",
-          description: "Python -SQL -JavaScript -C#"
+          description: "Python -SQL - C# -JavaScript -HTML -CSS "
         },
         {
           role: "تطوير الواجهات الخلفية",
@@ -70,7 +70,7 @@ export const translations = {
       timeline: [
         {
           role: "Programming Languages",
-          description: "Python -SQL -JavaScript -C#"
+          description: "Python -SQL - C# -JavaScript -HTML -CSS "
         },
         {
           role: "Backend Development",
@@ -87,7 +87,7 @@ export const translations = {
       ]
     },
     projects: {
-      title1: "Selected",
+      title1: "Projects",
       subtitle: "Here are  my recent works."
     },
     detail: {
