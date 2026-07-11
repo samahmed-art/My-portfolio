@@ -64,6 +64,7 @@ export const translations = {
     about: {
       title1: "About",
       title2: "Me",
+      viewCV: "view CV",
       p1: "I'm an IT graduate with a strong passion for backend development and software engineering. I enjoy designing efficient systems, solving complex problems, and building web applications that are scalable  and maintainable  . I continuously improve my skills by developing real-world projects and learning modern technologies, software architecture, database design, and API development. My goal is to grow as a backend developer and contribute to building high-quality software that makes a real impact.",
       downloadCV: "Download CV",
       experience: "Technical Skills",

@@ -26,7 +26,7 @@ const AboutCV = () => {
       <div className="cv-actions">
   {/* زر عرض السيرة الذاتية */}
   <a 
-    href={lang === 'ar' ? '/My_CV Arabic.pdf' : '/My_CV english.pdf'} 
+    href={lang === 'ar' ? '/سميرة_أحمد_عمر_بازقامة(عام)..pdf' : 'Samera_Ahmed_Omar_Ba_Zuqamah(GENERAL).pdf'} 
     target="_blank" 
     rel="noopener noreferrer" 
     className="btn btn-outline"
@@ -36,8 +36,8 @@ const AboutCV = () => {
 
   {/* زر تحميل السيرة الذاتية */}
   <a 
-    href={lang === 'ar' ? '/سميرة_أحمد_عمر_بازقامة(عام).pdf' : '/Samera_Ahmed_Omar_Ba_Zuqamah (GENERAL).pdf'} 
-    download={lang === 'ar' ? 'سميرة_أحمد_عمر_بازقامة(عام).pdf' : 'Samera_Ahmed_Omar_Ba_Zuqamah (GENERAL).pdf'} 
+    href={lang === 'ar' ? '/سميرة_أحمد_عمر_بازقامة(عام).pdf' : '/Samera_Ahmed_Omar_Ba_Zuqamah(GENERAL).pdf'} 
+    download={lang === 'ar' ? 'سميرة_أحمد_عمر_بازقامة(عام).pdf' : 'Samera_Ahmed_Omar_Ba_Zuqamah(GENERAL).pdf'} 
     className="btn btn-primary"
   >
     <Download size={18} className="mr-2" style={{marginRight: lang === 'ar' ? '0' : '8px', marginLeft: lang === 'ar' ? '8px' : '0'}} /> {t('about.downloadCV')}
