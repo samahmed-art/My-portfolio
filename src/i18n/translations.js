@@ -17,7 +17,7 @@ export const translations = {
       timeline: [
         {
           role: "لغات البرمجة",
-          description: "Python -SQL - C# -JavaScript -HTML -CSS "
+          description: "flutter -Dart -Python  -SQL - C# -JavaScript -HTML -CSS  "
         },
         {
           role: "تطوير الواجهات الخلفية",
@@ -71,7 +71,7 @@ export const translations = {
       timeline: [
         {
           role: "Programming Languages",
-          description: "Python -SQL - C# -JavaScript -HTML -CSS "
+          description:"flutter -Dart -Python  -SQL - C# -JavaScript -HTML -CSS  "
         },
         {
           role: "Backend Development",
