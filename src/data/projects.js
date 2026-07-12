@@ -56,6 +56,6 @@ export const projects = [
     techTags: ["Flutter",  "Supabase","Dart","GetX", "Vision API", "Gemini API"],
     image: "/Thaki.png",
     githubLink: "https://github.com/samahmed-art/thaki_app.git",
-    liveLink: ""
+    liveLink: "https://drive.google.com/file/d/1teMJe7oWtR88Ul-a703dHFe3mvnHTJkD/view?usp=sharing"
   }
 ];
