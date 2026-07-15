@@ -18,26 +18,26 @@ export const projects = [
     githubLink: "https://github.com/samahmed-art/weekly-to-do-list.git",
     liveLink: "https://my-smart-schedual.netlify.app/"
   }
-  
-  // {
-  //   id: "Ewan-halls",
-  //   title: {
-  //     ar: "موقع لأداره حجوزات قاعات الأفراح (Ewan)",
-  //     en: "Wedding Hall Booking Management Website (Ewan)"
-  //   },
-  //   shortDescription: {
-  //     ar: "منصة إلكترونية متكاملة لإدارة وحجز القاعات، تتيح للعملاء الحجز بسلاسة دون تعارض في المواعيد، وتمنح أصحاب القاعات لوحة تحكم متطورة لتنظيم الحجوزات، المزامنة، والتواصل الاحترافي مع المستخدمين.",
-  //     en: "An integrated digital platform for venue management and booking that enables customers to book seamlessly without scheduling conflicts, while providing venue owners with an advanced dashboard to manage bookings, synchronization, and professional communication with users."
-  //   },
-  //   fullDescription: {
-  //     ar :"نظام حجز قاعات  هو منصة ويب متكاملة متعددة الملاك (Multi-Vendor SaaS) تستبدل عشوائية السجلات الورقية بنظام حجز وإدارة ذكي، يتميز بتقويم تفاعلي يمنع الحجز المزدوج برمجياً ومحرك أمان يلغي الحجوزات الوهمية خلال 10 دقائق، مع توفير لوحات تحكم مستقلة ومحمية لكل صاحب قاعة لإدارة محتواه وصوره عبر Supabase Storage وإطلاق الحملات التسويقية بواسطة Resend API، مدمجاً ببوابة دفع إلكتروني لتأمين المعاملات وبواجهة مستخدم متجاوبة وعالية الاستجابة مصممة في Figma ومطورة بـ Next.js و Tailwind CSS.",
-  //     en : " Halls Booking System is an integrated multi-vendor SaaS web platform that replaces traditional paper logs with a smart management and reservation engine. It features an interactive calendar that programmatically eliminates double-bookings and an automated security gate that cancels ghost reservations within 10 minutes. The system provides secure, independent dashboards for each hall owner to dynamically manage content and multi-image uploads via Supabase Storage, dispatch bulk marketing campaigns using Resend API, and process secure payments through an integrated e-payment gateway—all wrapped in a highly responsive user interface designed in Figma and developed using Next.js, Supabase, and Tailwind CSS."
-  //   },
-  //   techTags: ["Next.js",  "Supabase","Tailwind CSS","Shadcn UI", "Resend API", "Lucide React"],
-  //   image: "/EWAN.png",
-  //   githubLink: "https://github.com/samahmed-art/ewan.git",
-  //   liveLink: "https://ewan-halls.vercel.app/"
-  // }
+  ,
+  {
+    id: "Ewan-halls",
+    title: {
+      ar: "موقع لأداره حجوزات قاعات الأفراح (Ewan)",
+      en: "Wedding Hall Booking Management Website (Ewan)"
+    },
+    shortDescription: {
+      ar: "منصة إلكترونية متكاملة لإدارة وحجز القاعات، تتيح للعملاء الحجز بسلاسة دون تعارض في المواعيد، وتمنح أصحاب القاعات لوحة تحكم متطورة لتنظيم الحجوزات، المزامنة، والتواصل الاحترافي مع المستخدمين.",
+      en: "An integrated digital platform for venue management and booking that enables customers to book seamlessly without scheduling conflicts, while providing venue owners with an advanced dashboard to manage bookings, synchronization, and professional communication with users."
+    },
+    fullDescription: {
+      ar :"نظام حجز قاعات  هو منصة ويب متكاملة متعددة الملاك (Multi-Vendor SaaS) تستبدل عشوائية السجلات الورقية بنظام حجز وإدارة ذكي، يتميز بتقويم تفاعلي يمنع الحجز المزدوج برمجياً ومحرك أمان يلغي الحجوزات الوهمية خلال 10 دقائق، مع توفير لوحات تحكم مستقلة ومحمية لكل صاحب قاعة لإدارة محتواه وصوره عبر Supabase Storage وإطلاق الحملات التسويقية بواسطة Resend API، مدمجاً ببوابة دفع إلكتروني لتأمين المعاملات وبواجهة مستخدم متجاوبة وعالية الاستجابة مصممة في Figma ومطورة بـ Next.js و Tailwind CSS.",
+      en : " Halls Booking System is an integrated multi-vendor SaaS web platform that replaces traditional paper logs with a smart management and reservation engine. It features an interactive calendar that programmatically eliminates double-bookings and an automated security gate that cancels ghost reservations within 10 minutes. The system provides secure, independent dashboards for each hall owner to dynamically manage content and multi-image uploads via Supabase Storage, dispatch bulk marketing campaigns using Resend API, and process secure payments through an integrated e-payment gateway—all wrapped in a highly responsive user interface designed in Figma and developed using Next.js, Supabase, and Tailwind CSS."
+    },
+    techTags: ["Next.js",  "Supabase","Tailwind CSS","Shadcn UI", "Resend API", "Lucide React"],
+    image: "/EWAN.png",
+    githubLink: "https://github.com/samahmed-art/ewan.git",
+    liveLink: "https://ewan-halls.vercel.app/"
+  }
     ,
   {
     id: "Thaki-app",
